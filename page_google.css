@@ -1,0 +1,133 @@
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: #222;
+  height: 100%;
+  margin: 0;
+}
+
+a
+{
+  text-decoration: none;
+  color:#555;
+}
+
+nav
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+  font-size: small;
+}
+
+.gmail, .images, .grille, .compte
+{
+  margin-left: 10px; 
+  margin-right: 10px;
+}
+
+#grille
+{
+  height: 25px;
+  opacity: 50%;
+}
+
+.connexion
+{
+  padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	background:#478bf9;
+	color:#fff;
+	border-radius:2px;
+	width:100px;
+	border:none;
+}
+
+#haut
+{
+  display: flex;
+  justify-content: center;
+}
+
+.partager
+{
+  align-self: flex-end;
+}
+
+#milieu
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#loupe
+{
+  height: 30px;
+  width: 30px;
+  opacity: 50%;
+}
+
+#micro
+{
+  height: 30px;
+  width: 20px;
+}
+
+#bas
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.recherche, .chance
+{
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer
+{
+  display:flex;
+  flex-direction: column;
+}
+
+.footer-haut
+{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  border: 1px solid rgb(139, 139, 139);
+  font:13px Arial;
+	background-color: #f5f5f5;
+	color:#555;
+}
+
+.footer-bas
+{
+  display: flex;
+  justify-content: space-between;
+  font:13px Arial;
+	background-color: #f5f5f5;
+	color:#555; 
+  height: 50px;
+}
+
+.gauche
+{
+  display: flex;
+  align-items: center;
+}
+
+.droite
+{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
